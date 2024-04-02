@@ -1,0 +1,270 @@
+#root {
+  margin: 0 auto;
+}
+
+/*Seção de Navegação*/
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  
+}
+  .navbar-select{
+    display: flex;
+    margin-left: 25%;
+  }
+  .navbar-icons{
+    margin-right: 15%;
+    margin-top: 15px;
+  }
+
+  .navbar-select a{
+    margin-top: 3%;
+    padding-right: 60px;
+    font-size: 24px;
+    font-weight: 300;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: white;
+  }
+
+  .navbar a:hover{
+    transform: scale(1.04, 1.04);
+    transition-duration: 0.5s;
+  }
+
+  .navbar img{
+    padding-right: 18px;
+  }
+
+/*Seção de Apresentação*/
+.presentation{
+  margin-top: 5%;
+  margin-left: 13%;
+}
+
+  .presentation h1{
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .presentation h3{
+    color: #BCBCBC;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 2%;
+  }
+
+  .presentation button{
+    width: 170px;
+    height: 50px;
+    background: linear-gradient(to left, #0FA6BF, #945DD6);
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    border-radius: 30px;
+    border:none;
+    margin-left: 3%;
+    margin-top: 1%;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+
+  .presentation button:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+  }
+
+/*Seção de Habilidades*/
+.skills{
+  margin-left: 13%;
+  margin-top: 8%;
+}
+
+.skills-icons{
+  text-align: center;
+  width: 500px;
+  height: 130px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px white;
+  margin-top: 3%; 
+  margin-left: 14%;
+}
+
+.skills h1{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.skills img{
+  width: 90px;
+  padding: 13px;
+  cursor: pointer;
+  padding-top: 17px;
+  transition-duration: 0.5s;
+}
+
+.skills img:hover{
+  transform: scale(1.1, 1.1);
+  transition-duration: 0.5s;
+}
+
+/*Seção de Projetos*/
+.projects h1{
+  font-size: 35px;
+  font-weight: 600;
+  margin-left: 13%;
+  margin-top: 8%;
+}
+
+.projects h2{
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 0%;
+  text-align: center;
+}
+
+.projects h4{
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 7%;
+  margin-top: 7%;
+  
+}
+
+.projects img{
+  width: 400px;
+  height: 240px;
+  margin-left: 8%;
+  margin-top: 4%;
+  border: none;
+  border-radius: 15px;
+}
+
+.projects img:hover{
+  transform: scale(1.02, 1.02);
+}
+
+.projects button{
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  background: linear-gradient(to left, #0FA6BF, #945DD6);
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  border-radius: 30px;
+  border:none;
+  margin-left: 5%;
+  transition-duration: 0.5s;  
+}
+
+.projects button:hover{
+  transform: translateY(-5px);
+  transition-duration: 0.5s;
+}
+
+.projects-cards1{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+
+.projects-cards2{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+
+.cards-mod{
+  width: 480px;
+  height: 570px;
+  border-radius: 65px 0 65px 0;
+  box-shadow: 0px 0px 10px 1px white;
+}
+
+  #card1{
+    margin-left: 33%;
+  }
+  
+  #card2{
+    margin-left: -33%;
+  }
+  
+  #card3{
+    margin-left: 33%;
+  }
+
+  #card4{
+    margin-left: -33%;
+  }
+
+ /*Seção Sobre mim*/
+ .aboutme h1{
+  font-size: 35px;
+  font-weight: 600;
+  margin-left: 13%;
+  margin-top: 8%;
+ }
+ .aboutme h2{
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1%;
+ }
+
+ .aboutme h3{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin: 60px;
+  margin-top: 0;
+ }
+
+ .aboutme img{
+  margin-left: 18%;
+  width: 1210px;
+ } 
+
+ .dates{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-evenly;
+ }
+
+.description{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center ;
+}
+
+/*Seção Footer*/
+.footer{
+  display: grid;
+  grid-auto-flow: column;
+  margin-left: 15%;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 5%;
+}
+
+  .contacts{
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: 10%;
+  }
+  #email{
+    margin-left: -150px;
+  }
+
+.footer img{
+  width: 65px;
+  padding: 2%;
+}
+#icons{
+  margin-top: 9px;
+  margin-left: 200px;
+}
+
